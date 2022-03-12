@@ -1,0 +1,56 @@
+.cvrimg{
+    height:70%;
+    width: 70%;
+    cursor: pointer;
+}
+#gridview{
+   margin: 5% 5% 5% 5%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% ;
+  grid-gap: 2%;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+
+  
+
+}
+.keyname{
+    margin-top: 0;
+  
+    margin-bottom: 0;
+}
+.valuename{
+    margin-top: 0;
+    
+}
+.valdiv{
+    margin-bottom: 35%;
+}
+.keydiv{
+        margin-bottom: 35%;
+}
+.viewset{
+    display: flex;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.viewset1
+{display: flex;
+justify-content: center;}
+.itemnu{
+     background-color: aqua;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+   padding-bottom: 3%;
+    padding-top: 10%;
+    height: fit-content;
+}
+.showit{
+display: contents;
+}
+.noshowit{
+display: none;
+}
