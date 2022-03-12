@@ -1,17 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
-import { Login } from "../Redux/Login/actions";
+
 import "./Home.css";
-import CardContent from "@material-ui/core/CardContent";
-import SkipPreviousIcon from "@material-ui/icons/SkipPrevious";
-import SkipNextIcon from "@material-ui/icons/SkipNext";
-import { useTheme } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
-import CardMedia from "@material-ui/core/CardMedia";
-import PlayArrowIcon from "@material-ui/icons/PlayArrow";
-import Card from "@material-ui/core/Card";
+
 import Player from "./Player";
 
 export const Home = () => {
